@@ -2,14 +2,11 @@ package com.example.layered.controller;
 
 import com.example.layered.dto.MemoRequestDto;
 import com.example.layered.dto.MemoResponseDto;
-import com.example.layered.entity.Memo;
-import com.example.layered.repository.MemoRepository;
 import com.example.layered.service.MemoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Collections;
 import java.util.List;
 
 @RestController // @Controller + @ResponseBody
